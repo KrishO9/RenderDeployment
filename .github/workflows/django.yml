@@ -27,6 +27,5 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run tests
-        run: |
-          export SECRET_KEY="django-insecure-ci21ub#04v+r0i^snm2km2dwchx^he0wu!=(lik(z-5k9m%-r#" 
+        run: | 
           pytest
