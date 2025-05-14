@@ -1,4 +1,4 @@
-name: CI
+name: django
 
 on: # Make sure 'on:' is at the root level of the YAML
   push:
